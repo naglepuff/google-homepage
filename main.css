@@ -1,0 +1,182 @@
+*{
+	font-family: arial, sans-serif;
+}
+
+#logo{
+	position: absolute;
+	height: 150px; width: 550px;
+	margin: 0 auto;
+}
+
+#google{
+	display: block;
+	position: relative;
+	height: 92px; width: 272px;
+	margin: 37px auto;
+}
+
+#center-block{
+	height: 300px; width: 550px;
+	margin: 12.5% auto;
+}
+
+#search-form{
+	height: 150px; width: 550px;
+	position: absolute;
+	margin: 150px auto;
+}
+
+#search-bar{
+	height: 30px; width: 528px;
+	font-size: 15px;
+	border: 1px solid #e6e6e6;
+	border-right: none;
+}
+
+#mic{
+	position: absolute;
+	height: 28px; width: 18px;
+	display: inline-block;
+	margin: 0 0 120px 528px;
+	border: 1px solid #e6e6e6;
+	border-left: none;
+	padding: 2px;
+	padding-right: 2px;
+}
+
+#buttons{
+	height: 40px; width: 310px;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.button{
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #737373;
+	background-color: #f2f2f2;
+	border: none;
+	border-radius: 2px;
+}
+
+.button:hover{border: 1px solid #e6e6e6}
+
+#gsearch{width: 140px;}
+
+#lucky{
+	width: 160px;
+	margin-left: 5.5px;
+}
+
+#header{
+	display: block;
+	position: relative;
+	height: 45px; width: 100%;
+}
+
+.head-el{
+	display: inline-block;
+	height: 32px; width: 32px;
+}
+
+#profile{
+	position: absolute;;
+  right: 25px;
+	top: 5px;
+}
+
+#prof-pic{
+	height: 32px; width: 32px;
+	border-radius: 100%;
+}
+
+#alerts{
+	height: 20px; width: 20px;
+	position: absolute;
+	right: 77px;
+	top: 12.5px
+
+}
+
+#bell{
+	height: 20px; width: 20px;
+	border-radius: 100%;
+}
+
+#apps{
+	position: absolute;
+	right: 125px;
+	top: 15px;
+}
+
+#grid, #apps{
+	height: 15px; width: 15px;
+}
+
+#image-link, #gmail-link{
+	margin: 0 auto;
+}
+
+#images{
+	position:absolute;
+	right: 172px;
+	top: 13px
+}
+
+#gmail{
+	position: absolute;
+	right: 221px;
+	top: 13px;
+}
+
+#gplus{
+	position: absolute;
+	right: 270px;
+	top: 2px;
+}
+
+a, p{
+	font-size: 13px;
+	text-decoration: none;
+	color: #595959;
+}
+
+a:visited{
+	color: #595959;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	height: 45px; width: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 1px;
+	background-color: #f2f2f2;
+}
+
+.foot-link{
+	font-size: 13px;
+	margin: 12px;
+}
+
+#foot-left{
+	display: inline-block;
+	position: absolute;
+	top: 13px;
+	left: 15px;
+}
+
+#foot-right{
+	display: inline-block;
+	position: absolute;
+	top: 13px;
+	right: 15px;
+}
